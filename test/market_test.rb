@@ -101,7 +101,6 @@ class MarketTest < Minitest::Test
   end
 
   def test_it_can_return_sorted_item_list
-    skip
     @vendor3.stock(@item3, 10)
     @market.add_vendor(@vendor1)
     @market.add_vendor(@vendor2)
